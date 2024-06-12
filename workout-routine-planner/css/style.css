@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    background-size: 100%;
+    background-image: linear-gradient(
+  190deg,
+  hsl(297deg 99% 30%) 0%,
+  hsl(297deg 99% 30%) 35%,
+  hsl(297deg 99% 30%) 68%,
+  hsl(297deg 99% 30%) 100%
+);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(
+  190deg,
+  hsl(187deg 100% 56%) 0%,
+  hsl(187deg 100% 56%) 35%,
+  hsl(187deg 100% 56%) 68%,
+  hsl(187deg 100% 56%) 100%
+);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    padding: 10px;
+    background-color: #d9534f;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+h2 {
+    text-align: center;
+}
+
+.create-button {
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.create-button:hover {
+    background-color: #4cae4c;
+}
+
+.workout {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.edit-button, .delete-button {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-button {
+    background-color: #5bc0de;
+}
+
+.edit-button:hover {
+    background-color: #31b0d5;
+}
+
+.delete-button {
+    background-color: #d9534f;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}
+
+.back-button {
+    padding: 10px;
+    background-color: #0275d8;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #025aa5;
+}
+
+input[type="text"], input[type="password"], input[type="date"], textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
